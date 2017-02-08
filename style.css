@@ -1,7 +1,7 @@
 * {
 	text-align: center;
 	box-sizing: border-box;
-	width: 960px;
+	/*width: 960px;*/
 	color: #777;
 }
 
@@ -12,14 +12,13 @@ body {
   background: #777; 
 }
 
-div {
-	position:fixed;
-	left: 23%;
+div {	
+	width: 960px;
+	margin-left: auto;
+	margin-right: auto;	
+	overflow: auto;
+	/*position:fixed;*/
 }
-
- /*boxColors {
- 	background: #ebebeb;	
- }*/
 
 header {
   margin-bottom: 10px;
@@ -80,13 +79,3 @@ footer {
  	background: #ebebeb;
 	clear: both;
 }
-
-/*Body
-Section
-Article
-.clear
-Your text elements: h1, p, etc.
-body: 960px
-section: 495px 
-float, padding, margin, display, overflow, clear and text-align
-*/
